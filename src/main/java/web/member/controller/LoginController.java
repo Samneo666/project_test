@@ -15,6 +15,8 @@ public class LoginController extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		resp.getWriter().write("專題測試");
+		resp.getWriter().write("要再加油!");
+		resp.getWriter().write("我一定要拿到offer");
 	}
 	
 
